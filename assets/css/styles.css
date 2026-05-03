@@ -2,6 +2,20 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 .hero {
   height: 400px;
   background: url("../img/fondo-verde.png") center/cover no-repeat;
@@ -47,4 +61,29 @@
   margin-top: 10px;
   border-radius: 20px;
   padding: 6px 18px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .nav-link {
+  transition: color 0.3s ease;
+}
+
+footer img {
+  opacity: 0.8;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+footer img:hover {
+  opacity: 1;
+  transform: scale(1.05);
 }
