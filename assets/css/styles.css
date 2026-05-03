@@ -14,3 +14,37 @@
 .hero p {
   font-size: 1.2rem;
 }
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    boxshadow 0.3s ease;
+}
+
+.card img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card .btn {
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 6px 18px;
+}
