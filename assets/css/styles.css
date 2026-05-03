@@ -1,0 +1,16 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero {
+  height: 400px;
+  background: url("../img/fondo-verde.png") center/cover no-repeat;
+}
+
+.hero h1 {
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
