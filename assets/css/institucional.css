@@ -1,0 +1,93 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.hero-institucional h1 {
+  font-weight: bold;
+}
+
+.hero-institucional p {
+  font-size: 1.2rem;
+}
+
+.hero-institucional {
+  min-height: 40vh;
+  background:
+    linear-gradient(rgba(132, 132, 132, 0.067), rgba(0, 0, 0, 0.073)),
+    url("../img/fondo-verde.png") center/cover;
+  color: white;
+}
+footer {
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .nav-link {
+  transition: color 0.3s ease;
+}
+
+footer img {
+  opacity: 0.8;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+footer img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.institucional {
+  position: relative;
+}
+
+.serpiente-item {
+  position: relative;
+}
+
+.card-info {
+  border-left: 3px solid #198754;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.card-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.img-box {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.img-box img {
+  width: 100%;
+  transition: 0.4s;
+}
+
+.img-box:hover img {
+  transform: scale(1.08);
+}
