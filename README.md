@@ -13,6 +13,12 @@ Sitio web sobre el IPF
 
 ## Componentes de Bootstrap utilizados
 
--
--
--
+- Navbar
+- Header
+- Container / Layout
+- Cards
+- Form
+- FAQ
+- Footer
+- Bootstrap Icons
+- Utilities (spacing y flexbox)
