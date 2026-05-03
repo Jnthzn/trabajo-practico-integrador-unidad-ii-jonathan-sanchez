@@ -1,0 +1,79 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #f8f9fa;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .nav-link {
+  transition: color 0.3s ease;
+}
+
+footer img {
+  opacity: 0.8;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+footer img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.hero-carreras h1 {
+  font-weight: bold;
+}
+
+.hero-carreras p {
+  font-size: 1.2rem;
+}
+
+.hero-carreras {
+  min-height: 40vh;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.067), rgba(138, 138, 138, 0.073)),
+    url("../img/fondo-verde.png") center/cover;
+  color: white;
+}
+
+.carrera-detalle {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.carrera-detalle img {
+  transition: transform 0.4s ease;
+}
+
+.carrera-detalle:hover img {
+  transform: scale(1.01);
+}
+
+.carrera-detalle h2 {
+  font-weight: bold;
+}
+
+.carrera-detalle ul {
+  padding-left: 18px;
+}
