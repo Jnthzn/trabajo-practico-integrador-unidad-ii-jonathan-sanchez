@@ -17,7 +17,7 @@ main {
 }
 
 .hero {
-  height: 400px;
+  min-height: 40vh;
   background: url("../img/fondo-verde.png") center/cover no-repeat;
 }
 

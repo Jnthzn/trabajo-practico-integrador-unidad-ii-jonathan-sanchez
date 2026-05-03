@@ -77,3 +77,8 @@ footer img:hover {
 .carrera-detalle ul {
   padding-left: 18px;
 }
+
+.carrera-detalle:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
